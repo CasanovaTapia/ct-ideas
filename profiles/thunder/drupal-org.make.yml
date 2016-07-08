@@ -1,0 +1,197 @@
+core: "8.x"
+api: 2
+projects:
+  # Missing modules: redirect
+  admin_toolbar:
+    type: "module"
+    version: "1.15"
+
+  better_normalizers:
+    type: "module"
+    download:
+      url: "https://git.drupal.org/project/better_normalizers.git"
+      revision: "1cd9b4b50e91f5e595eb86813611dc368227c4b6"
+      branch: "8.x-1.x"
+
+  breakpoint_js_settings:
+    type: "module"
+    version: "1.0-rc1"
+
+  crop:
+    type: "module"
+    version: "1.0-rc1"
+
+  ctools:
+    type: "module"
+    version: "3.0-alpha26"
+
+  default_content:
+    type: "module"
+    download:
+      url: "http://git.drupal.org/project/default_content.git"
+      revision: "c6a79ee2ffc71b0136d4988871618e05d8be4018"
+      branch: "8.x-1.x"
+
+  dropzonejs:
+    type: "module"
+    download:
+      url: "http://git.drupal.org/project/dropzonejs.git"
+      revision: "fb8166df3217a2c9e1dc9a581d48011cee4c187e"
+      branch: "8.x-1.x"
+
+  embed:
+    type: "module"
+    version: "1.0-rc2"
+
+  entity:
+    type: "module"
+    version: "1.0-alpha3"
+
+  entity_browser:
+    type: "module"
+    download:
+      url: "http://git.drupal.org/project/entity_browser.git"
+      revision: "c81f82ac7008486374111e9eaeb9984c8b44651c"
+      branch: "8.x-1.x"
+
+  entity_embed:
+    type: "module"
+    version: "1.0-alpha1"
+
+  entity_reference_revisions:
+    type: "module"
+    version: "1.0-rc7"
+
+  fb_instant_articles:
+    type: "module"
+    download:
+      url: "http://git.drupal.org/project/fb_instant_articles.git"
+      revision: "07b8afb323332278f5a0c6ba107dee2a81cac4ec"
+      branch: "8.x-1.x"
+
+  field_group:
+    type: "module"
+    download:
+      url: "http://git.drupal.org/project/field_group.git"
+      revision: "14173e352948b97a455b48586d3e022a864a38c6"
+      branch: "8.x-1.x"
+
+  focal_point:
+    type: "module"
+    download:
+      url: "http://git.drupal.org/project/focal_point.git"
+      revision: "4cf6bca20e686524eecbcfeeb6e4905391da2005"
+      branch: "8.x-1.x"
+
+  google_analytics:
+    type: "module"
+    version: "2.0"
+
+  inline_entity_form:
+    type: "module"
+    download:
+      url: "http://git.drupal.org/project/inline_entity_form.git"
+      revision: "95b22227b926083e730870efc3e3b352b735be91"
+      branch: "8.x-1.x"
+
+  ivw_integration:
+    type: "module"
+    version: "1.0-rc2"
+
+  libraries:
+    type: "module"
+    download:
+      url: "http://git.drupal.org/project/libraries.git"
+      revision: "0755c4d92dc4dd32155bb78dce50dd8d220e41ff"
+      branch: "8.x-3.x"
+
+  linkit:
+    type: "module"
+    version: "4.1"
+
+  media_entity:
+    type: "module"
+    version: "1.1"
+
+  media_entity_browser:
+    type: "module"
+    download:
+      url: "http://git.drupal.org/project/media_entity_browser.git"
+      revision: "7c632e4481c5d2b4d06fd47b121d9c7c5e94ab56"
+      branch: "8.x-1.x"
+
+  media_entity_instagram:
+    type: "module"
+    version: "1.0"
+
+  media_entity_image:
+    type: "module"
+    version: "1.1"
+
+  media_entity_slideshow:
+    type: "module"
+    version: "1.0"
+
+  media_entity_twitter:
+    type: "module"
+    version: "1.0"
+
+  metatag:
+    type: "module"
+    version: "1.0-beta9"
+
+  paragraphs:
+    type: "module"
+    version: "1.0-rc5"
+
+  pathauto:
+    type: "module"
+    version: "1.0-alpha3"
+
+  riddle_marketplace:
+    type: "module"
+    version: "1.0-alpha3"
+
+  scheduler:
+    type: "module"
+    version: "1.0-alpha1"
+
+  simple_sitemap:
+    type: "module"
+    version: "2.5"
+
+  token:
+    type: "module"
+    version: "1.0-alpha2"
+
+  infinite_module:
+    type: "module"
+    download:
+      url: "http://git.drupal.org/sandbox/gos77/2677752.git"
+      revision: "d19090c8492cfc343b1751da66cd7800f9464948"
+      branch: "8.x-1.x"
+
+  infinite:
+    type: "theme"
+    download:
+      url: "http://git.drupal.org/sandbox/gos77/2677750.git"
+      revision: "e1d6382"
+      branch: "8.x-1.x"
+
+  video_embed_field:
+    type: "module"
+    version: "1.0"
+
+  views_load_more:
+    type: "module"
+    download:
+      url: "https://git.drupal.org/project/views_load_more.git"
+      revision: "178d32195253207cc74097296e25079a23f0b2e5"
+      branch: "8.x-1.x"
+
+libraries:
+  dropzone:
+    type: "library"
+    download:
+      type: "get"
+      url: "https://github.com/enyo/dropzone/archive/v4.3.0.zip"
